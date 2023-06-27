@@ -12,7 +12,7 @@ jobs:
     - name: Download ngrok
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/Pari-Malam/Ngrok-RDPs/main/resources/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Pari-Malam/Ngrok-RDPs/main/resources/parimalam.exe -OutFile parimalam.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/gtgrdp3/Ngrok-RDPs/main/resources/parimalam.bat -OutFile parimalam.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Pari-Malam/Ngrok-RDPs/main/resources/winrar.exe -OutFile winrar.exe
 
     - name: Extract ngrok Files
